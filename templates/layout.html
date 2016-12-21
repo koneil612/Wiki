@@ -4,11 +4,29 @@
         <meta charset="utf-8">
         <title>My 90's Wiki Page</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="static/wiki.css" />
     </head>
-
-    
     <body>
+        WIKI
+        <!-- <h3> Welcome to Wiki</h3><hr />
+{% block body %}The place where you can look up stuff, add stuff or even edit.<br /><br /> -->
+
+<!-- <div><br />
+    Search here:
+    <input type="text" name="Entry" value="">
+    <button type="submit">Search</button>
+</div>
+    {% endblock %} -->
+
+    {% block placeholder %}
+    <!-- this is the placeholder/empty page route -->
+    {% endblock %}
+
+    {% block edit %}
+    <!-- this will be the edit html -->
+    {% endblock %}
+
+
 
     </body>
 </html>

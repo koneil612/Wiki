@@ -1,7 +1,7 @@
-{% extends "layout.html" % }
-
-{% block body %}
+{% extends "layout.html" %}
+{% block placeholder %}
 This page doesn't exist!
 <br />
-Click <a href="" > Here</a> to create a new one!
+<a href="/<page_name>/edit">Click Here</a> to create a new one!<br />
+{{page.content}}
 {% endblock %}
